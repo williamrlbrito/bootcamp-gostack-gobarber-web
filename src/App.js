@@ -1,14 +1,15 @@
 import React from 'react';
-import GlobalStyles from './global/styles';
-import Index from './pages/Index';
+import { Router } from 'react-router-dom';
 
-const App = () => {
+import Routes from './routes';
+import history from './services/history';
+
+function App() {
   return (
-    <>
-      <GlobalStyles />
-      <Index />
-    </>
+    <Router history={history}>
+      <Routes />
+    </Router>
   );
-};
+}
 
 export default App;
