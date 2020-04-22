@@ -33,5 +33,6 @@ module.exports = {
     ],
     "no-param-reassign": "off",
     "no-underscore-dangle": "off",
+    camelcase: "off",
   },
 };
