@@ -32,5 +32,6 @@ module.exports = {
       { extensions: ['.jsx', '.js'] }
     ],
     "no-param-reassign": "off",
+    "no-underscore-dangle": "off",
   },
 };
